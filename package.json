@@ -4,7 +4,7 @@
   "description": "Portfolio featuring Parallax effects and animations",
   "version": "0.0.11",
   "author": "Sayeed Afridi",
-  "homepage": "https://sayeedafridi.github.io",
+  "homepage": "https://sayeedafridi.github.io/portfolio",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
