@@ -3,7 +3,6 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  pathPrefix: "/portfolio",
   siteMetadata: {
     siteTitleAlt: `Sayeed Afridi - Portfolio`,
   },
