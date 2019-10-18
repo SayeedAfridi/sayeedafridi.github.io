@@ -4,6 +4,7 @@
   "description": "Portfolio featuring Parallax effects and animations",
   "version": "0.0.11",
   "author": "Sayeed Afridi",
+  "homepage": "https://sayeedafridi.github.io"
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
@@ -12,7 +13,9 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public" 
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.0.8",
