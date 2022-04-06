@@ -2,12 +2,14 @@
   "name": "sayeedafridi.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sayeedafridi.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:static": "yarn build && next export"
+    "build:static": "yarn build && next export",
+    "deploy": "yarn build:static && gh-pages -d out -b master"
   },
   "dependencies": {
     "next": "12.1.4",
@@ -24,6 +26,7 @@
     "eslint-config-next": "12.1.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.6.2",
     "typescript": "4.5.5"
   }
